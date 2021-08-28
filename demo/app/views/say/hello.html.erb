@@ -1,0 +1,16 @@
+<h1>Hello from rails</h1>
+<p>
+    It is now <%= @time %>
+</p>
+<br>
+<p>Addition: <%= 1+2 %></p>
+<p>Concatenation: <%= "cow" + "boy" %></p>
+<p>Time in one hour: <%= 1.hour.from_now.localtime %></p>
+<br>
+<ul>
+    <%= @files.each do |f| %>
+        <li>File: <%= f %></li>
+    <% end %>
+</ul>
+<br>
+Say <%= link_to "GoodBye", say_goodbye_path %>
