@@ -1,0 +1,55 @@
+pt-BR:
+  layouts:
+    application:
+      title: "A Estante Pragmática"
+      home: "Inicio"
+      questions: "Perguntas"
+      news: "Notícias"
+      contact: "Contato"
+  store:
+    index:
+      title_html: "Catálogo pragmático"
+      add_html: "Adicionar ao carrinho"
+  carts:
+    cart:
+      title: "Carrinho de compra"
+      empty: "Esvaziar carrinho"
+      checkout: "Comprar"
+  number:
+    currency:
+      format:
+        unit: "R$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u%n"
+  orders:
+    new:
+      legend: "Insira seus dados"
+    form:
+      name: "Nome"
+      address_html: "Endereço"
+      email: "E-mail"
+      pay_type: "Forma de pagamento"
+      pay_prompt_html: "Selecione uma forma de pagamento"
+      submit: "Confirmar"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "não está incluído no lista"
+        blank: "não pode ficar em branco"
+    models:
+      order: "pedido"
+      attributes:
+        order:
+        address: "Endereço"
+        name: "Nome"
+        email: "E-mail"
+        pay_type: "Forma de pagamento"
+  errors:
+    template:
+      body: "Há problemas nos seguintes campos:"
+  header:
+    one: "1 erro está impendindo que a %{model} seja salva"
+    other: "%{count} erros estáo impedindo que a %{model} seja salvo"
+  thanks: "Obrigado por comprar conosco"
